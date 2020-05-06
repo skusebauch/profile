@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Open+Sans&display=swap');
+
+body {
+  background-color: #E0FBFC;
+  color: white;
+  line-height: 1.7
+  ;
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+}
+
+
+h2, h3{
+  font-family: 'Manrope', sans-serif;
+  color: #EE6C4D;
+}
+
+p {
+  font-family: 'Open Sans  ', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-gunmetal {
+  background-color: #293241;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 2px 2px 4px 0px #3D5A80;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 175px;
+  box-shadow: 2px 2px 20px 1px #3D5A80;
+}
+
+.btn-blue {
+  background-color: #3D5A80;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans  ', sans-serif;
+  font-weight: bold;
+}
+
+.btn-blue:hover {
+  opacity: .5;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  color: #98C1D9;
+  font-size: 35px;
+  display: inline-block;
+}
+
+.list-inline i:hover {
+  opacity: .5;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
